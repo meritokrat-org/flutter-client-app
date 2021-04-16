@@ -25,19 +25,18 @@ class _AuthScreenState extends State<AuthScreen> {
 
   @override
   Widget build(BuildContext context) {
-    if(_user is User) {
+    if (_user is User) {
       return HomeScreen();
     }
     return Scaffold(
-            body: Column(
-              children: <Widget>[
-                Text('You are not currently signed in.'),
-                TextButton(
-                    onPressed: () => _signInWithGoogle(),
-                    child: Text('Sign in'))
-              ],
-            ),
-          );
+      body: Column(
+        children: <Widget>[
+          Text('You are not currently signed in.'),
+          TextButton(
+              onPressed: () => _signInWithGoogle(), child: Text('Sign in'))
+        ],
+      ),
+    );
   }
 
   Future<UserCredential> _signInWithGoogle() async {
