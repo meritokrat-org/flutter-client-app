@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "487619816554",
+    "firebase_url": "https://meritokrat-flutter-client-app-default-rtdb.firebaseio.com",
+    "project_id": "meritokrat-flutter-client-app",
+    "storage_bucket": "meritokrat-flutter-client-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487619816554:android:11dce43c48432ac7ea6e13",
+        "android_client_info": {
+          "package_name": "org.meritokrat.flutter_client_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487619816554-ug4b106mpqc40jdsfjlm99kjdl8i6b85.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.meritokrat.flutter_client_app",
+            "certificate_hash": "d88cf8053c6b22616379e19e91114e0d385ba4a6"
+          }
+        },
+        {
+          "client_id": "487619816554-9pr653asm5pukl2apqugu4ph85vqfui4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBXGhUG-S_SAYZ1XCuON1DLx1kKJ8lqtU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487619816554-9pr653asm5pukl2apqugu4ph85vqfui4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "487619816554-m83nhpt38j3csr392t9c989nktaumenv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.meritokrat.flutter-client-app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
